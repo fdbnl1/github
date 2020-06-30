@@ -23,3 +23,9 @@ copy-syslog-file:
     - source: salt://syslog-ng.conf
     - name: /etc/syslog-ng/syslog-ng.conf
 
+  
+syslog-ng:
+
+  service.running:
+
+    - reload: True
