@@ -1,0 +1,13 @@
+file_roots:
+
+
+base:
+  base:
+  
+  'minion-1':
+    - /srv/salt
+    - docker
+
+  'minion-2':
+
+    - wordpress
